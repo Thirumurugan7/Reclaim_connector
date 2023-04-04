@@ -15,7 +15,7 @@ app.use(cors())
 
 const dbName = "zkclaims";
 let linksCollection: any;
-const client = new MongoClient("mongodb+srv://admin:admin@cluster0.rxnpu.mongodb.net/zkclaims");
+const client = new MongoClient("mongodb://127.0.0.1:27017/mern-todo");
 const getLinksCollection = async (): Promise<any> => {
 	if (!linksCollection) {
 	  await client.connect();

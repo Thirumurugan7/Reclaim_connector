@@ -39,8 +39,6 @@ const Form = ({ proveIt }: FormProps) => {
 			onSubmit={onSubmit}
 			className="flex flex-col items-center w-full gap-5 lg:items-start text-offBlack"
 		>
-
-			
 			<input
 				type="email"
 				name="email"
